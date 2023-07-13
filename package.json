@@ -1,6 +1,6 @@
 {
   "name": "more-info-multi-card",
-  "version": "1.0.0",
+  "version": "1.0.0-dev.1",
   "description": "Lovelace more-info-multi-card",
   "keywords": [
     "home-assistant",
@@ -49,7 +49,7 @@
     "rollup-plugin-uglify": "^6.0.2",
     "semantic-release": "^20.1.0",
     "typescript": "^4.9.4"
-    },
+  },
   "scripts": {
     "start": "rollup -c --watch --bundleConfigAsCjs",
     "build": "npm run lint && rollup -c --bundleConfigAsCjs",
